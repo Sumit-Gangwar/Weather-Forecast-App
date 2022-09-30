@@ -1,0 +1,51 @@
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mapouter{
+    margin: -31% 2%;
+    display: flex;
+    justify-content: right;
+}
+#container{
+    border: 1px solid;
+    width: 50%;
+    margin: 2vh;
+    font-weight: 600;
+    color: white;
+    background-repeat:round;
+    display: inline-block;
+    border-radius: 5px;
+}
+.box1{
+    padding: 5px;
+    background:transparent;
+}
+.box1>h1{
+    display: flex;
+    font-size: 80px;
+    margin: auto 2vh;
+    display: inline-block;
+}
+.box2{
+    display: flex;
+    padding: 5px;
+    font-size: 15px;
+    background:transparent;
+    justify-content: space-between;
+    text-align: center;
+}
+#forecast{
+    display: grid;
+    gap: 10px;
+    width: 50%;
+    justify-content: space-between;
+    padding: 5px;
+    grid-template-columns: repeat(5,1fr);
+}
+.foreBox{
+    width: 20vh;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
